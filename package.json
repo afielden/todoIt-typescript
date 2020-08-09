@@ -1,0 +1,21 @@
+{
+  "name": "todit-v1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma",
+    "compile": "tsc",
+    "serve": "browser-sync start --server --watch" 
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "4.17.11"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.12",
+    "karma": "3.0.0",
+    "typescript": "3.4.4"
+  }
+}
